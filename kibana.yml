@@ -1,0 +1,4 @@
+port: 5601
+host: "0.0.0.0"
+kibana.enabled: false        # disable the standard kibana discovery, visualize & dashboard plugins
+elasticsearch.enabled: false # do not require a running Elasticsearch 2.0 instance
